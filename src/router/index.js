@@ -23,12 +23,12 @@ const routes = [
     component: lazyLoad('EnquireOneToOne')
   },
   {
-    path: '/book-session',
-    name: 'book session',
+    path: '/book-sessions',
+    name: 'book sessions',
     // route level code-splitting
     // this generates a separate chunk (savings.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: lazyLoad('BookSession')
+    component: lazyLoad('BookSessions')
   },
   {
     path: '/terms-and-conditions',
