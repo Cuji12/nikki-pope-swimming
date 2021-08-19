@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;500;700&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', Helvetica, Arial, serif;
+}
+p {
+  font-family: 'Open Sans', Helvetica, Arial, serif;
+}
+.bg-blue {
+  background-color: #3D90D9;
+}
+.bg-dark-blue {
+  background-color: #023059;
+}
+.bg-orange {
+  background-color: #F2916D;
+}
+.text-blue {
+  background-color: #3D90D9;
+}
+.text-dark-blue {
+  color: #023059;
+}
+.text-orange {
+  color: #F2916D;
+}
+.text-light-black {
+  color: #222222;
+}
+img {
+  max-width: 100%;
+}
+.hover-orange:hover {
+  color: #F2916D;
+}
+.white-hr {
+  color: #ffffff !important;
+  background-color: #ffffff !important;
+}
